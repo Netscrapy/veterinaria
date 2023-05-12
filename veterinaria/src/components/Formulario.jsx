@@ -52,7 +52,7 @@ const Formulario = ({pacientes, setPacientes}) => {
                 >
                     
                     {error && 
-                        <Error mensaje='Hay campos Vacíos' />
+                        <Error><p>Hay campos vacíos!</p></Error>
                     }
                     <div>
                         <div className="mb-5">

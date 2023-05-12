@@ -13,9 +13,10 @@ const [pacientes, setPacientes] = useState([]);
           pacientes = {pacientes}
           setPacientes = {setPacientes}
         />
-        <ListadoPacientes />
-        
-      </div>
+        <ListadoPacientes
+          pacientes = {pacientes}
+        />
+        </div>
 
     </div>
   )
